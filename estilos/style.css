@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav > p {
+    text-align: center;
+    background-color: #D9D9D9;
+    color: #646364;
+    font-size: 1.5em;
+
+    padding: 5px;
+}
+
+img#logo-principal {
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: inline;
+    margin-left: 70vw;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input#pesquisa {
+    margin: 20px;
+}
+
+ul {
+    background-color: white;
+    width: 800px;
+    height: 25px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+ul > li {
+    display: inline;
+    font-size: 1.4em;
+    color: black;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+li:hover {
+    background-color: #4d4d4d54;
+    color: #ffffff;
+    padding: 5px;
+    transition: 0.5s;
+}
